@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
-    <module name="Primehawk_ModuleB" setup_version="1.0.0">
+    <module name="Primehawk_Alpha" setup_version="1.0.0">
         <sequence>
-            <module name="Primehawk_ModuleA"/>
+            <module name="Primehawk_Core"/>
         </sequence>
     </module>
 </config>
