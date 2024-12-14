@@ -1,9 +1,9 @@
 {
-    "name": "primehawk/module-b",
-    "description": "Secondary module B for Magento 2 that depends on Module A",
+    "name": "primehawk/module-alpha",
+    "description": "Secondary module alpha for Magento 2 that depends on Module Core",
     "require": {
         "php": ">=7.4",
-        "primehawk/module-a": "^1.0"
+        "primehawk/module-core": "^1.0"
     },
     "type": "magento2-module",
     "version": "1.0.0",
