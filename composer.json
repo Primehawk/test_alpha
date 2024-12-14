@@ -1,0 +1,15 @@
+{
+    "name": "primehawk/module-b",
+    "description": "Secondary module B for Magento 2 that depends on Module A",
+    "require": {
+        "php": ">=7.4",
+        "primehawk/module-a": "^1.0"
+    },
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ]
+    }
+}
